@@ -1,0 +1,115 @@
+@relation 'senti100 - 2class2 changed'
+
+@attribute summary {'For the Price  Not too Shabby!','for the price.. this is a great phone','Great Phone  Great Price and Triple Minutes!!!','LG 800 w/Triple Mins.','Quite an enjoyable Phone/MP3 player','Needed a new phone','my 1st smartfone','LG 800G Prepaid Phone With Triple Minutes (Tracfone)','Smart Phone Alternative - Tracfone','Great phone for the price!','Nice touch screen for a tracphone.','Great phone for me!','lg 800g','great first phone','? about life of phone','My new LG800 Touch Screen Phone',PTL,'Budget Touchscreen Phone With Decent Features',Sweet,'Love it!','great phones','Best Tracfone Yet','trac phone','Great phone.','Shipping exceeded my expectations','Another Tracfone upgrade',LG800g,'LG 800G Prepaid phone with triple minutes (Tracfone)','Tracfone upgrade','Super value for a basic touchscreen phone','Good deal','a good value','Good value','Good start but then..','I love it!','Good phone for the price','Good price for a good phone!','does the job','Okay for he price ',mhm,'Not a smart phone but a close second','LOVE THIS LITTLE PHONE','Great phone for $15!','Perfect first phone for all ages.','SAVE MONEY','Great Phone with good features','nice semi smart phone','Fun phone','Excellent phone for the money','nice phone','Great price for a tracfone!','prepaid pahone','a great replace for a poor tracfone.','Surprising features for a no contract phone','phone seems fine - Tracfone makes it impossible to activate','Stay away  stay FAR away.','Lacks Endurance','50/50 shot at a good one','Biggest Problem','A terrible purchase','TEXTING SUCKS SUCKS and SUCKS.  (AND INTERNET TOO.)','Triple minute phone','touch screen worthless','I kind of like it.','Save your money',annoying,'Decent Phone','frustrating phone  LG 800g tracfone','pretty good..',frustration,'Not enough insturction','Generous use of the term   Smartphone ','I am sorry didn t return it in 30 days...','Worst phone ever!','Tracfone admits autolock problem and no solution',terrible,'Great phone for gandpa','Bad Phone','Cheap cheap cheap','Decent phone.','Hope this doesn t happen to everyone.','ok phone but dont waste your money','Tracfone slidescreen','Plusses & Minuses','Phone has a glitch - BEWARE!','its okay','I hate this phone!!!!','Very difficult to utilize features','This phone is okay.'}
+@attribute 'Voice mail' numeric
+@attribute mp3 numeric
+@attribute touch numeric
+@attribute tracfone numeric
+@attribute android numeric
+@attribute keyboard numeric
+@attribute memory numeric
+@attribute 'sd card' numeric
+@attribute bluetooth numeric
+@attribute text numeric
+@attribute rating {Good,Poor}
+
+@data
+'For the Price  Not too Shabby!',0,0,0,0.500563,0,0,0,0,0,0,Good
+'for the price.. this is a great phone',0,0,-0.339596,0,0,0,0,0,0,0,Poor
+'Great Phone  Great Price and Triple Minutes!!!',-0.297974,0,0,0,0,0,0,0,0,0,Good
+'LG 800 w/Triple Mins.',0,0,0.538842,0,0,0,0,0,0,0,Good
+'Quite an enjoyable Phone/MP3 player',0,0.706329,0,0,0,0,0,0,0,0,Good
+'Needed a new phone',0,0,0.3249,0,0,0,0,0,0,0,Good
+'my 1st smartfone',0,0,0.791201,0.791201,0,0,0,0,0,0,Good
+'LG 800G Prepaid Phone With Triple Minutes (Tracfone)',0,0,0,0.607376,0,0,0,0,0,0,Good
+'Smart Phone Alternative - Tracfone',0,0.477885,0,0.477885,0,0,0,0,0.477885,0,Good
+'Great phone for the price!',0,0,0,0.608877,0,0,0,0,0,-0.288986,Good
+'Nice touch screen for a tracphone.',0,0,0.204417,0,0,0.224161,0,0,0,-0.235764,Good
+'Great phone for me!',0,0,0,0,0,0,0.72599,0.72599,0,0,Good
+'lg 800g',0,0.372698,0,0,0,0,0,0,0,0,Good
+'lg 800g',0,0.372698,0,0,0,0,0,0,0,0,Good
+'great first phone',0,0,0.825328,0,0,0,0,0,0,0,Good
+'? about life of phone',0,0,0,0,0,0,0,0,0,-0.827302,Poor
+'My new LG800 Touch Screen Phone',0,0,0.366169,0,0,0,0,0,0,0,Good
+PTL,0,0,0.917101,0,0,0,0,0,0,0,Good
+'Budget Touchscreen Phone With Decent Features',0,0.715151,0,0.715151,0,0,0,0,0,0,Good
+Sweet,0,0,0.889105,0,0,0,0,0,0,0,Good
+'Love it!',0,0,0.870777,0,0,0,0,0,0,0,Good
+'Love it!',0,0,0.870777,0,0,0,0,0,0,0,Good
+'great phones',0,0,0,-0.2584,0,0,0,0,0,0,Good
+'Best Tracfone Yet',0,0.679504,0.679504,0,0,0,0.679504,0.679504,0,0,Good
+'LG 800G Prepaid Phone With Triple Minutes (Tracfone)',0,0,0.786948,0,0,0,0,0,0,0,Good
+'trac phone',0,0,0.968535,0,0,0,0,0,0,0,Good
+'Great phone.',0,0,-0.32694,0,0,0,0.696802,0.696802,0,0,Good
+'Shipping exceeded my expectations',0,0,0.680907,0,0,0,0,0,0,0,Good
+'Shipping exceeded my expectations',0,0,0.680907,0,0,0,0,0,0,0,Good
+'Another Tracfone upgrade',0,0,0,0.250624,0,0,0,0,0,0,Good
+LG800g,0,0,0,0,0,0,0.521384,0.521384,0,0,Good
+'LG 800G Prepaid phone with triple minutes (Tracfone)',0,0,-0.236692,0,0,0,0,0,0,0,Good
+'Tracfone upgrade',0,0,0.988227,0.988227,0,0,0,0,0,0,Good
+'Super value for a basic touchscreen phone',0,0,0,0.292544,0,0,0.440637,0.440637,0,0,Good
+'Good deal',0,0,0.931338,0,0,0,0,0,0,0,Good
+'a good value',0,0,0.769081,0,0,0,0,0,0,0,Good
+'Good value',0,-0.024505,-0.024505,0,0,0,0,0,0,0,Good
+'Good start but then..',0,0,-0.333624,0,0,0,0,0,0,0,Poor
+'I love it!',0,0,0.821484,0,0,0,0,0,0,0,Good
+'Good phone for the price',0,0,0,0.747774,0,0,0,0,0,0,Good
+'Good price for a good phone!',0,-0.347947,0.283612,0.690935,0,0,0,0,0,0,Good
+'does the job',0,0,0,-0.439253,0,0,0,0,0,0,Poor
+'Okay for he price ',0,0,-0.273987,0,0,0,0,0,0,0,Poor
+mhm,0,0,0,0.77485,0,0,0,0,0,0,Good
+'Not a smart phone but a close second',0,0.62966,0.62966,0.299194,0,0,0,0,0,0,Good
+'LOVE THIS LITTLE PHONE',0,0,0.651494,0,0,0,0,0,0,0,Good
+'Great phone for $15!',0,0,0,-0.071519,0,0,0,0,0,0,Good
+'Perfect first phone for all ages.',0,0,0.78837,0,0,0,0,0,0,0,Good
+'SAVE MONEY',-0.420675,0,-0.420675,0,0,0,0,0,0,0,Poor
+'Great Phone with good features',0.557317,0,0,0.686156,0,0,0,0,0,0,Good
+'nice semi smart phone',0,0,0,0.763459,0,0,0,0,0,0,Good
+'Fun phone',0,0,0.955953,0,0,0,0,0,0,0,Good
+'Excellent phone for the money',0,0,0,0.70639,0,0,0,0,0,0,Good
+'nice phone',0,0,0.455017,0,0,0,0,0,0,0,Good
+'Great price for a tracfone!',0,0,0.526821,0,0,0,0,0,0,0,Good
+'prepaid pahone',0,0,0.841557,0,0,0,0,0,0,0,Good
+'a great replace for a poor tracfone.',0,0,0,0,0,0,0.040918,0.040918,0,0,Good
+'a great replace for a poor tracfone.',0,0,0,0,0,0,0.040918,0.040918,0,0,Good
+'Surprising features for a no contract phone',0,0.428525,0,0.428525,0,0,0.428525,0.428525,0.428525,0,Good
+'phone seems fine - Tracfone makes it impossible to activate',0,0,0,-0.543494,0,0,0,0,0,0,Poor
+'Stay away  stay FAR away.',0,0,0,-0.456901,0,0,0,0,0,0,Poor
+'Lacks Endurance',0,0,-0.831499,0,0,0,0,0,0,0,Poor
+'Lacks Endurance',0,0,-0.831499,0,0,0,0,0,0,0,Poor
+'50/50 shot at a good one',0,0,0,-0.48678,0,0,0,0,0,0,Poor
+'Biggest Problem',-0.490056,0,-0.490056,0,0,0,0,0,0,0,Poor
+'A terrible purchase',0,0,-0.557397,-0.557397,0,0,0,0,0,0,Poor
+'TEXTING SUCKS SUCKS and SUCKS.  (AND INTERNET TOO.)',0,0,0,-0.489595,0,0,0,0,0,0,Poor
+'TEXTING SUCKS SUCKS and SUCKS.  (AND INTERNET TOO.)',0,0,0,-0.489595,0,0,0,0,0,-0.557397,Poor
+'Triple minute phone',0.366458,0,0,0,0,0,0,0,0,0,Poor
+'touch screen worthless',0,0,-0.709515,0,0,0,0,0,0,0,Poor
+'I kind of like it.',0,0.601099,0,0,0,0,0,0,0,0,Good
+'Save your money',0,0,0,-0.629956,0,0,0,0,0,0,Poor
+annoying,-0.687551,0,0,0,0,0,0,0,0,0,Poor
+annoying,-0.687551,0,0,0,0,0,0,0,0,0,Poor
+'Decent Phone',-0.630548,0,0,0,0,0,0,0,0,0,Poor
+'frustrating phone  LG 800g tracfone',-0.680884,0,0,0,0,0,0,0,0,0,Poor
+'pretty good..',0,0,-0.152229,0,0,0,0,0,0,0,Good
+frustration,0,0,0,-0.431372,0,0,0,0,0,0,Poor
+'Not enough insturction',-0.568495,0,0,-0.568495,0,0,0,0,0,0,Poor
+'Generous use of the term   Smartphone ',0.299916,0,0,0.099117,0,0,0,0,0,0,Poor
+'I am sorry didn t return it in 30 days...',0.209372,0,-0.685131,0,0,0,0,0,0,0,Poor
+'Worst phone ever!',0,0,-0.635342,0,0,0,0,0,0,0,Poor
+'Tracfone admits autolock problem and no solution',0,0,0,-0.506233,0,0,0,0,0,0,Poor
+terrible,0,0,-0.858888,0,0,0,0,0,0,0,Poor
+terrible,0,0,-0.858888,0,0,0,0,0,0,0,Poor
+'Great phone for gandpa',0,0,0.475942,0,0,0,0,0,0,0,Good
+'Bad Phone',0,0,-0.744828,0,0,0,0,0,0,0,Poor
+'Cheap cheap cheap',0,0,-0.885437,0,0,0,0,0,0,0,Poor
+'Decent phone.',0,0,0.368011,0,0,0,0,0,0,0,Good
+'Hope this doesn t happen to everyone.',0,0,0,0.533205,0,0,0,0,0,0,Good
+'Hope this doesn t happen to everyone.',0,0,0,0.533205,0,0,0,0,0,0,Good
+'ok phone but dont waste your money',0,0,-0.306311,0,0,0,0,0,0,0,Poor
+'Tracfone slidescreen',0,0,0,-0.523904,0,0,0,0,0,0,Poor
+'Plusses & Minuses',0,0.568667,0.483733,0,0,0,0,0,0,0,Good
+'Phone has a glitch - BEWARE!',-0.86085,0,0,0,0,0,0,0,0,0,Poor
+'its okay',0,0,-0.731068,0,0,0,0,0,0,0,Poor
+'I hate this phone!!!!',0,0,0,-0.812548,0,0,0,0,0,0,Poor
+'Very difficult to utilize features',0,0,0,0.688329,0,0,0,0,0,0,Good
+'This phone is okay.',0,0,-0.434812,0,0,0,0,0,0,0,Poor
